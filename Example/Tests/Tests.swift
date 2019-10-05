@@ -1,6 +1,5 @@
 import UIKit
 import XCTest
-@testable import FBAnnotationClustering
 
 class Tests: XCTestCase {
     

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FBAnnotationClusteringSwift"
-  s.version          = "2.0"
+  s.version          = "2.1"
   s.summary          = "This is a Swift translation of FBAnnotationClustering. Aggregates map pins into a single numbered cluster."
 
   s.description      = <<-DESC
@@ -22,7 +22,7 @@ Swift translation of FB Annotation Clustering, which clusters pins on the map fo
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.source_files = 'Pod/Classes/**/*'
 	s.framework = 'MapKit'
